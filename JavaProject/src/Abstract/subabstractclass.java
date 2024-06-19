@@ -27,14 +27,12 @@ public class subabstractclass extends Creatabstractclass {
 		this.j=j;
 	}
 	public static void main(String[] args) {
-		subabstractclass sa = new subabstractclass(5,"tejesh",6,"bobbili");
+		subabstractclass sa = new subabstractclass(5,"tejesh", 6, "bobbili");
 		sa.test1();
 		sa.test2();
 		sa.test3();
 		System.out.println(sa.i);
 		System.out.println(sa.j);
-		System.out.println(sa.k);
-		System.out.println(sa.l);
 		
 	}
 

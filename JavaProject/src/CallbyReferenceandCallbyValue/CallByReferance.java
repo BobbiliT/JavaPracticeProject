@@ -13,3 +13,5 @@ public class CallByReferance {
 		System.out.println("after call by referance :"+r1.data);
 	}
 }
+//in the call by referance method of the parameter passing. 
+//the address of the actual parameter passing of functional as a formal paramter

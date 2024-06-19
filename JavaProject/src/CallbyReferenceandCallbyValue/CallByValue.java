@@ -13,3 +13,5 @@ public static void main(String[] args) {
 	System.out.println("after call by value "+c.data);
 }
 }
+//in the call by value method of the parameter passing.
+//the value of actual paramter are coppied to fucntion of the formal parameter.

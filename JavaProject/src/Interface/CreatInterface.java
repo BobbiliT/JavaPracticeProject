@@ -6,5 +6,4 @@ public interface CreatInterface {
 	public abstract void math2();
 	public abstract void math3();
 	
-	
 }
