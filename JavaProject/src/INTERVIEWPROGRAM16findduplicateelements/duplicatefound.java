@@ -16,7 +16,6 @@ public class duplicatefound {
 		if (b == false) {
 			System.out.println("duplicate is not found.");
 		}
-
 	}
 
 }

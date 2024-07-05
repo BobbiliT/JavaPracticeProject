@@ -3,7 +3,6 @@ package INTERVIEWPROGRAM18bobbleshort;
 import java.util.Arrays;
 
 public class bobbleshort {
-	public class bubbleshort {
 		public static void main(String[] args) {
 			int a[] = { 90, 40, 50, 60, 30, 20, 10, 70, 80 };
 			System.out.println("array before shorting :" + Arrays.toString(a));
@@ -18,5 +17,4 @@ public class bobbleshort {
 			}
 			System.out.println("array after shorting :" + Arrays.toString(a));
 		}
-	}
 }
