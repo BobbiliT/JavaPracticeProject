@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class primeornot {
 	public static void main(String[] args) {
-		System.out.println("enter your numebr :");
+		System.out.println("enter your numebr :");         
 		Scanner s = new Scanner(System.in);
 		int num = s.nextInt();
 		int count = 0;
@@ -22,5 +22,6 @@ public class primeornot {
 			System.out.println("is not prime.");
 		}
 	}
-
 }
+//what is prime number?
+//A prime number is a number that can only be divided by itself and 1. it is called prime number.

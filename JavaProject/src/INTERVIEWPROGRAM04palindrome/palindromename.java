@@ -18,5 +18,8 @@ public class palindromename {
 			System.out.println("name is not palindroem.");
 		}
 	}
-
 }
+//what is palindrome name?
+//A palindrome name is a name that reads the same forward and backward. 
+//In other words,if you reverse the name of a palindrome name, you get the same name
+

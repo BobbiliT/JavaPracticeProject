@@ -10,8 +10,8 @@ public class betweenfibnoccinumber {
 			System.out.println(sum); // 10
 			num1 = num2;
 			num2 = sum;
-
 		}
 	}
-
 }
+//what is Fibonacci sequence?
+//The Fibonacci sequence is a type series where each number is the sum of the two precedeing numbers.

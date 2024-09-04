@@ -10,13 +10,12 @@ public static void main(String[] args) {
 	Scanner s = new Scanner(System.in);
 	String name=s.nextLine();
 	name=name.replace(" ", "");
-	char ch[]=name.toCharArray();
 	Map<Character, Integer> mp = new TreeMap<Character, Integer>();
-	for(int i=0; i<name.length(); i++) {
-		char c=ch[i];
+	for(char ch:name.toCharArray()) {
+		char c=ch;
 		if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u') {
 			if(mp.containsKey(c)) {
-				Integer inte=mp.get(ch[i]);
+				Integer inte=mp.get(ch);
 				mp.put(c, inte+1);
 			}
 			else {

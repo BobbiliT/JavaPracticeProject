@@ -20,5 +20,7 @@ public class numberpalindrome {
 			System.out.println("number is not palindrome.");
 		}
 	}
-
 }
+//What is palindrome number?
+//A palindrome number is a number that reads the same forward and backward. 
+//In other words,if you reverse the digits of a palindrome number, you get the same number

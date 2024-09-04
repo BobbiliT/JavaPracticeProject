@@ -13,7 +13,7 @@ public class higestnumberformarray {
 			}
 			if (arr[i] < higest && arr[i] > sechigest) {
 				sechigest = arr[i];
-			}
+		}
 		}
 		System.out.println("second higestnumber form an Array :" + sechigest);
 	}

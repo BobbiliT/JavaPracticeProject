@@ -22,3 +22,5 @@ public class amstromngnumber {
 		}
 	}
 }
+//what is amstrong number?
+//Armstrong number is a number that is equal to the sum of cubes of its digits.

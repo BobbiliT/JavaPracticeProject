@@ -7,10 +7,10 @@ public class countvowels {
 		System.out.println("enter your name: ");
 		Scanner s = new Scanner(System.in);
 		String name = s.nextLine();
-		char ch[] = name.toCharArray();
+		name=name.replace(" ", "");
 		int count = 0;
-		for (int i = 0; i < name.length(); i++) {
-			char c = ch[i];
+		for (char ch:name.toCharArray()) {
+			char c = ch;
 			if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
 				count++;
 			}

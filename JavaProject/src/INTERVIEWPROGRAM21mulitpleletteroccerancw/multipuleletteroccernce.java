@@ -19,6 +19,5 @@ public class multipuleletteroccernce {
 			}
 		}
 		System.out.println(hs);
-		
 	}
 }

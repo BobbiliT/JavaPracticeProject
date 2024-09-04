@@ -9,7 +9,7 @@ public class leafyear {
 		int year = s.nextInt();
 		if (year % 400 == 0) {
 			System.out.println("this is a leaf year...");
-		} else if (year % 4 == 0 && year % 100 == 0) {
+		} else if (year % 4 == 0 && year % 100 != 0) {
 			System.out.println("this is a leaf year...");
 		} else {
 			System.out.println("this is not a leaf year...");
