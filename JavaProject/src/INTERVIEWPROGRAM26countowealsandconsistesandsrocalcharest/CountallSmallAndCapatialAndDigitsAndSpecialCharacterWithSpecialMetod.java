@@ -24,6 +24,7 @@ public class CountallSmallAndCapatialAndDigitsAndSpecialCharacterWithSpecialMeto
 				cp++;
 				captial = captial + ch;
 			} else if (Character.isDigit(ch)) {
+				nu++;
 				digits = digits + ch;
 			} else {
 				sp++;

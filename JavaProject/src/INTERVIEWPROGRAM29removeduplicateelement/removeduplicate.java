@@ -15,7 +15,7 @@ public class removeduplicate {
 		}
 		a[j] = a[a.length - 1];
 		for (int k = 0; k <= j; k++) {
-			System.out.print(a[k] + "");
+			System.out.print(a[k] +" ");
 		}
 	}
 }

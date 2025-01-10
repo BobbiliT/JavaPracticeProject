@@ -18,6 +18,8 @@ public class multipuleletteroccernce {
 				hs.put(c, 1);
 			}
 		}
-		System.out.println(hs);
+		for(HashMap.Entry<Character, Integer> entry :hs.entrySet()) {
+			System.out.println(entry.getKey()+" = "+entry.getValue());
+		}
 	}
 }
