@@ -4,8 +4,8 @@ public class lhigest {
 	public static void main(String[] args) {
 		int arr[] = { 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6 };
 		int a = arr.length;
-		int lowest = Integer.MAX_VALUE;
-		int secondlowest = Integer.MAX_VALUE;
+		int lowest = 0;
+		int secondlowest = 0;
 		for (int i = 0; i < a; i++) {
 			if (arr[i] < lowest) {
 				secondlowest = lowest;

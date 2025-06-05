@@ -9,7 +9,6 @@ public class countbetweenevenodd {
 		int num = s.nextInt();
 		int even = 0;
 		int odd = 0;
-		int count = 0;
 		int rev = 0;
 		while (num != 0) {
 			rev = rev * 10 + num % 10;

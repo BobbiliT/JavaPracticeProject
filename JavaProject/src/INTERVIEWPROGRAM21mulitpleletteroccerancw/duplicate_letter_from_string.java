@@ -21,7 +21,7 @@ public class duplicate_letter_from_string {
 		}
 		Set<Character> set = hs.keySet();
 		for(Character ch:set) {
-			if(hs.get(ch)>1) {
+			if(hs.get(ch)==1) {
 				System.out.println(ch+"="+hs.get(ch));
 			}
 		}
