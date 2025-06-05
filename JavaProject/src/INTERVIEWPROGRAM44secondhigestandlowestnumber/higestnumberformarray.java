@@ -4,8 +4,8 @@ public class higestnumberformarray {
 	public static void main(String[] args) {
 		int arr[] = { 10, 20, 30, 40, 50, 10, 20, 30, 40, 50 };
 		int a = arr.length;
-		int higest = Integer.MIN_VALUE;
-		int sechigest = Integer.MIN_VALUE;
+		int higest = 0;
+		int sechigest = 0;
 		for (int i = 0; i < a; i++) {
 			if (arr[i] > higest) {
 				sechigest = higest;

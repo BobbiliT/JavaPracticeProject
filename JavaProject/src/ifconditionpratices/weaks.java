@@ -28,7 +28,7 @@ public static void main(String[] args) {
 	else if(name.equals("sunday")) {
 		System.out.println("yahh! this is weakend....");
 	}
-	else  if(!name.equals("")){
+	else {
 		System.out.println("enter valid day name....");
 	}
 }

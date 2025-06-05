@@ -9,5 +9,4 @@ public class randomnumebr {
 		int r = rand.nextInt(10);
 		System.out.println("print random number :" + r);
 	}
-
 }

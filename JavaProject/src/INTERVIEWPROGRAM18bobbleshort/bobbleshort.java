@@ -3,18 +3,18 @@ package INTERVIEWPROGRAM18bobbleshort;
 import java.util.Arrays;
 
 public class bobbleshort {
-		public static void main(String[] args) {
-			int a[] = { 90, 40, 50, 60, 30, 20, 10, 70, 80 };
-			System.out.println("array before shorting :" + Arrays.toString(a));
-			for (int i = 0; i < a.length - 1; i++) {
-				for (int j = 0; j < a.length - 1; j++) {
-					if (a[j] > a[j + 1]) {
-						int temp = a[j];
-						a[j] = a[j + 1];
-						a[j + 1] = temp;
-					}
+	public static void main(String[] args) {
+		int a[] = { 4, 2, 1, 5, 3 };
+		System.out.println("array before shorting :" + Arrays.toString(a));
+		for (int i = 0; i < a.length; i++) {
+			for (int j = i + 1; j < a.length; j++) {
+				if (a[i] > a[j]) {
+					int temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
 				}
 			}
-			System.out.println("array after shorting :" + Arrays.toString(a));
 		}
+		System.out.println("array after shorting :" + Arrays.toString(a));
+	}
 }

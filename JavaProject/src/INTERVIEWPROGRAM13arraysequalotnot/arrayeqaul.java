@@ -10,6 +10,7 @@ public class arrayeqaul {
 				if (a[i] != b[i])
 					System.out.println("array is equal :" + a[i]);
 				result = true;
+				break;
 			}
 		} else {
 			result = false;
