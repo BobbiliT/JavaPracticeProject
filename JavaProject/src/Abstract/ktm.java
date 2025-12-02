@@ -1,6 +1,6 @@
 package Abstract;
 
-public class ktm extends bike{
+public class ktm extends bike {
 
 	@Override
 	public void cc() {
@@ -16,6 +16,7 @@ public class ktm extends bike{
 	public void color() {
 		System.out.println("ktm color is -> red and white");
 	}
+
 	public static void main(String[] args) {
 		ktm k = new ktm();
 		k.cc();
